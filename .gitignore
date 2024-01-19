@@ -1,0 +1,31 @@
+# Dependencies
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# Nuxt build output
+.nuxt
+dist
+static/sw.js
+static/workbox-*.js
+
+# Environment files
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Temporary files
+tmp
+temp

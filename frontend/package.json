@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "rm -rf /tmp/nitro && nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.22.6",
+    "@graphql-codegen/typescript": "^4.0.0",
+    "@graphql-codegen/typescript-operations": "^4.0.0",
+    "@heroicons/vue": "^2.1.1",
+    "@huggingface/inference": "^2.6.4",
+    "@nuxtjs/tailwindcss": "^6.10.4",
+    "@popperjs/core": "^2.11.8",
+    "@types/web-push": "^3.6.3",
+    "apollo-link-context": "^1.0.20",
+    "axios": "^1.6.5",
+    "date-fns": "^2.30.0",
+    "graphql": "^16.8.1",
+    "graphql-ws": "^5.14.3",
+    "langchain": "^0.1.4",
+    "nuxt": "3.7.3",
+    "subscriptions-transport-ws": "^0.11.0",
+    "ts-invariant": "^0.10.3",
+    "typescript": "^5.3.3",
+    "unhead": "^1.8.10",
+    "v-calendar": "^3.1.2",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^4.0.1",
+    "@graphql-codegen/client-preset": "^4.1.0",
+    "@graphql-codegen/introspection": "^4.0.0",
+    "@graphql-codegen/named-operations-object": "^2.3.1",
+    "@graphql-codegen/typescript-vue-apollo": "^3.3.7",
+    "@nuxtjs/apollo": "^5.0.0-alpha.11",
+    "@nuxtjs/strapi": "^1.11.0",
+    "ts-node": "^10.9.2"
+  }
+}
