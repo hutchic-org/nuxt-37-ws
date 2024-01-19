@@ -23,7 +23,7 @@
     "graphql": "^16.8.1",
     "graphql-ws": "^5.14.3",
     "langchain": "^0.1.4",
-    "nuxt": "3.7.3",
+    "nuxt": "3.7.4",
     "subscriptions-transport-ws": "^0.11.0",
     "ts-invariant": "^0.10.3",
     "typescript": "^5.3.3",
