@@ -8,7 +8,8 @@ export default defineNuxtConfig({
         clientPort: 22301,
         path: 'hmr/',
         timeout: 3,
-      }
+      },
+      middlewareMode: true
     }
   },
   ssr: false,
